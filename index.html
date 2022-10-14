@@ -1,223 +1,286 @@
+
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Polycoin</title>
-  <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-<!-- partial:index.partial.html -->
-<html>
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Token sale page">
-
-  <title>Token sale</title>
-
+  <meta charset="UTF-8" />
+  <meta https-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="Polycoin Token | One Different Core Component Platform" />
+  <meta property="og:title" content="Polycoin Token | One Different Core Component Platform" />
+  <meta property="og:image" content="images/line.jpg" />
+  <meta name="description" content="Polycoin ECOSYSTEM Polycoin Token ($PLYC) is a holistic digital platform that supports a wide range of application and financial services."/>
+  <link rel="apple-touch-icon" sizes="180x180" href="https://polycoin.tk/img/logo.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="https://polycoin.tk/img/logo.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="https://polycoin.tk/img/logo.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="mask-icon" href="./img/logo/safari-pinned-tab.svg" color="#5bbad5" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+  crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link ref="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+  rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/aos.css" />
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/responsive.css" />
+  <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <meta name="theme-color" content="#ffffff" />
+  
   <script>
-    var test = false; // False if contracts are on Mainnet
-    var contractAddressSale = '0x74e3F296D587f48539eA71759Cc44F2AF61DB651';
-    var contractAddressToken = '0x58834bA6FeC3CAa025a72B420A33f289974FA159';
-  </script>
+        var test = false;
+        var contractAddressSale = '0x74e3F296D587f48539eA71759Cc44F2AF61DB651';
+        var contractAddressToken = '0x58834bA6FeC3CAa025a72B420A33f289974FA159';
+    </script>
+      <title>Polycoin Token | One Different Core Component</title>
+    </head>
+    <body>
 
-  <style>
-    body {
-      font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-      color: #FFFFFF;
-      background-color: #000000;
-      font-size: 16px;
-      font-weight: 400;
-    }
+</section>
+<section id="sale" class="features-area">
+  <div class="container">
+    <div
+    class="common-heading-content-wrapper features-heading-content-wrapper"
+    >
+    <h2 class="heading_two text-center features-heading-content">
+      Polycoin $PLYC Public PreSale 
+    </h2>
+    <span class="features-area-divider"></span>
+  </div>
+  <div class="features-grid">
+    <div class="features-box">
+      <div class="features-box-icon" align="center">
+        <img src="img/f-1.svg" alt="" />
+      </div>
+      <div class="features-box-content">
+        <h4 class="heading_Four features-box-content-heading" align="center">
+          INFORMATION 
+        </h4>
+        <p class="paragraph_one features-box-content-paragraph">
 
-    h1 {
-      font-size: 22px;
-      font-weight: 700;
-    }
-
-    h2 {
-      font-size: 22px;
-      font-weight: 500;
-    }
-
-    .small {
-      font-size: 12px;
-    }
-
-    .err {
-      color: red;
-    }
-
-    .green {
-      color: green;
-    }
-
-    .blue {
-      color: blue;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    a {
-      color: #FFFFFF;
-      text-decoration: none;
-    }
-
-    a:hover {
-      color: #C0C0C0;
-    }
-
-    .clickable {
-      cursor: pointer;
-    }
-
-    .clickable:hover {
-      color: #C0C0C0;
-    }
-
-    button {
-      background-color: #1e527b;
-      border: 1px solid;
-      border-radius: 10px;
-      color: white;
-      padding: 5px 20px;
-      text-align: center;
-      text-decoration: none;
-      font-size: 16px;
-      display: inline-block;
-      margin: 4px 2px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background-color: #8af6fe;
-    }
-
-    button[disabled] {
-      opacity: 0.6;
-      cursor: not-allowed;
-    }
-
-    hr {
-      margin: 20px;
-      border: 0;
-      border-top: 1px dashed;
-    }
-
-    input {
-      text-align: center;
-      border-radius: 10px;
-      font-size: 18px;
-      background-color: #141451;
-      color: #FFFFFF;
-      border: 3px solid;
-      max-width: 70%;
-    }
-  </style>
-
-</head>
-
-<body>
-
-  <div style="text-align: center">
-    <button id="connect" style="font-size: 12px">Connect</button> <button class="switch" id="addMainBSC" style="font-size: 12px;">To BSC Mainnet</button>
-    <span id="nometamask" class="err" style="display: none">Please install Metamask first...</span>
-    <div class="network small"><span id="curnet"><span class="err">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> <span id="myAddr"></span>
-      <span id="referred" style="display:none"><br>Referrer: <span id="referrer"></span></span>
+          <div style="" align="center">
+            <button class="btn hero-btn-box btn-lg" id="connect" >Connect</button> 
+            <button class="btn hero-btn-box btn-lg" id="addMainBSC">To BSC Mainnet</button>
+            <br /> <br />
+            <span id="nometamask" class="textwhitecolor blockquote" style="display: none">Please install Metamask first...</span><div class="network small">
+            <span id="curnet" class="textwhitecolor blockquote">
+              <span class="textwhitecolor blockquote">Please use DApp browser/extension (e.g. <a target="_blank" href="https://metamask.io">Metamask</a>)</span></span> 
+              <span id="myAddr" class="textwhitecolor blockquote"></span>
+              <span id="referred" style="" class="textwhitecolor blockquote"><br>Referrer: 
+                <span class="textwhitecolor blockquote" id="referrer"></span>
+              </span>
+            </div>
+            <hr class="bg-danger border-3 border-top border-info">
+          </div>
+          <div class="section-title text-center" style="">
+            <h3 class="textwhitecolor"><span id="tokenName">Polycoin Token</span> (<span class="tokenSymbol">$Polycoin</span>)</h3>
+            <span><a class="text-warning blockquote" style="text-decoration:none"  target="_blank" href="https://bscscan.com/token/0x58834bA6FeC3CAa025a72B420A33f289974FA159" id="tokenAddress">0x58834bA6FeC3CAa025a72B420A33f289974FA159</a>
+            </span>
+            <hr class="bg-danger border-3 border-top border-info">
+            <span class="textwhitecolor blockquote">Do not send BNB to the token contract!</span>
+            <div> <br /> 
+              <button class="btn hero-btn-box btn-lg " id="addToken" style="text-align: center">Add to Metamask</button> 
+              <button class="btn hero-btn-box btn-lg" id="copyToken" style="text-align: center">Copy address</button>
+            </div>      
+          </div>
+        </p>
+      </div>
     </div>
-  </div>
+    <div class="features-box">
+      <div class="features-box-icon" align="center">
+        <img src="img/f-2.svg" alt="" align="center" />
+      </div>
+      <div class="features-box-content">
+        <h4 class="heading_Four features-box-content-heading" align="center">
+          PRESALE STATUS
+        </h4>
+        <p class="paragraph_one features-box-content-paragraph">
 
-  <div style="text-align: center">
-    <h2><span id="tokenName">Polycoin</span> (<span class="tokenSymbol">PLYC</span>)</h2>
-    <p><a target="_blank" href="https://bscscan.com/token/0x58834bA6FeC3CAa025a72B420A33f289974FA159" id="tokenAddress">0x58834bA6FeC3CAa025a72B420A33f289974FA159</a></p>
-    <!-- Reserved in case you want to show decimals and total supply: Decimals <span id="#tokenDecimals"></span> Total supply <span id="#tokenSupply"></span>-->
+          <ul>
 
-    <h1>
-      <span id="finished" style="display:none" class="status green">Finished</span>
-      <span id="unlocked" style="display:none" class="status green"><br>Claim unlocked</span>
-      <span id="locked" style="display:none" class="status err"><br>Claim locked</span>
-      <span id="addtokens" style="display:none" class="status err"><br>Ask token sale admin to add tokens to the sale contract!</span>
-      <span id="active" style="display:none" class="status green">Active</span>
-      <span id="paused" style="display:none" class="status err">Paused</span>
-      <span id="upcoming" style="display:none" class="status blue">Presale Upcoming</span>
-      <span id="upcomingtimer" style="display:none" class="status blue"><br>begins in <span id="starttimer"></span></span>
-      <span id="activetimer" style="display:none" class="status green"><br>ends in <span id="endtimer"></span></span>
-    </h1>
-  </div>
+            <span id="finished" style="display:none" class="status green blockquote">Finished</span>
+            <span id="addtokens" style="display:none" class="status err blockquote">
+              <br />Ask token sale admin to approve token sale contract or check tokens balance on the wallet!</span>
+              <p class="textwhitecolor blockquote"><span id="active" style="display:none" class="status green">Active</span>
+                <span id="paused" style="display:none" class=" status err blockquote">Paused</span>
+                <span id="upcoming" style="display:none" class="status blue blockquote">Upcoming</span>
+                <span id="upcomingtimer" style="display:none" class="status blue blockquote"><br>begins in <span id="starttimer"></span></span>
+                <span id="activetimer" style="display:none" class="status green blockquote"><br>ends in <span id="endtimer"></span></span>
+                
+              </ul>
+              <ul>
+
+                <progress class="progress-bar blockquote" id="progress" value="0" max="100" style="width: 100%">
+                </progress>
+
+                <p class="blockquote"> Presale Rate: 1 BNB = <span class="rate"></span> <span class="tokenSymbol">$Polycoin</span> (~ <span class="price"></span> BNB/<span class="tokenSymbol">$Polycoin</span>) </p>
+
+                <hr class="bg-danger border-3 border-top border-info">
+
+                <p class="blockquote">PCS Listing Rate: 2 BNB = <span class="rate"></span> <span class="tokenSymbol">$Polycoin</span> (~ <span class=""></span> 2 BNB/<span class="tokenSymbol">$Polycoin</span>) </p>
+
+                <hr class="bg-danger border-3 border-top border-info">
+
+                <p class="blockquote"> Start: <span id="start"></span></p>
+
+                <hr class="bg-danger border-3 border-top border-info">
+
+                <p class="blockquote"> End: <span id="end"></span></p>
+
+                <hr class="bg-danger border-3 border-top border-info">
+
+                <p class="blockquote"> Duration: <span id="duration"></span></p>
+              </p>
+            </div>
+            
+          </div>
+          <div class="features-box">
+            <div class="features-box-icon" align="center">
+              <img src="img/f-3.svg" alt="" />
+            </div>
+            <div class="features-box-content">
+              <h4 class="heading_Four features-box-content-heading" align="center">
+               BUY POLYCOIN $PLYC
+             </h4>
+             <p class="paragraph_one features-box-content-paragraph">
+
+               <p class="textwhitecolor blockquote">1 BNB = <span class="rate"></span> 
+                 <span class="tokenSymbol blockquote">$Polycoin</span></p>
+                 <hr class="bg-danger border-3 border-top border-info">
+                 <p class="textwhitecolor blockquote">BNB :<span><input type="number" id="buyAmount" value="0" min="0.005" class="form-control btn-lg" /></span></p>
+                 <p class="textwhitecolor blockquote">You get :<span id="get">$Polycoin</span> <span class="tokenSymbol blockquote"></span></p>
+                 <p align="center"><button class="btn hero-btn-box btn-lg" id="buyBtn" style="text-align: center">Buy Polycoin</button></p>
+                 <hr class="bg-danger border-3 border-top border-info">
+                 <p class="textwhitecolor blockquote">In my wallet: <span id="myTokens"></span> <span class="tokenSymbol" style="color:#fff">$Polycoin</span></p>
+                 <p class="textwhitecolor blockquote">Unclaimed: <span id="myUnclaimed"></span> <span class="tokenSymbol" style="color:#fff">$Polycoin</span></p>
+
+                 <p align="center"><button class="btn hero-btn-box btn-lg" id="claim" style="text-align: center">Claim tokens</button></p>
+
+               </div>
+             </div>
+
+
+             <div class="features-box">
+              <div class="features-box-icon" align="center">
+                <img src="img/f-4.svg" alt="" />
+              </div>
+              <div class="features-box-content">
+                <h4 class="heading_Four features-box-content-heading " align="center">
+                  SALE CONTRACT
+                </h4>
+                <p class="blockquote">
+                 You can also buy tokens by sending BNB directly from your wallet to this contract
+                 (please increase gas limit to 1,050,000
+                 <hr class="bg-danger border-3 border-top border-info">
+                 <span><a href="https://bscscan.com/address/0x74e3F296D587f48539eA71759Cc44F2AF61DB651" target="_blank" id="saleAddress" class="text-warning blockquote" style="text-decoration:none" >0x74e3F296D587f48539eA71759Cc44F2AF61DB651</a></span>
+                 <hr class="bg-danger border-3 border-top border-info">
+                 <div align="center">
+                   <button class="btn hero-btn-box btn-lg" id="copySale" style="text-align: center">Copy address</button>
+                 </div>
+                 <hr class="bg-danger border-3 border-top border-info">
+                 <div style="text-align: center" id="saleqr"></div>
+               </p>
+             </div>
+
+           </div>
+           <div class="features-box">
+            <div class="features-box-icon" align="center">
+              <img src="img/f-5.svg" alt="" />
+            </div>
+            <div class="features-box-content">
+              <h4 class="heading_Four features-box-content-heading" align="center">
+                REFERRALS
+              </h4>
+              <p class="paragraph_one features-box-content-paragraph">
+               <h1 class="textwhitecolor abouth" align="center"></h1>
+               <span class="textwhitecolor blockquote">Share your referral link and get paid instantly to your wallet for every referred token purchase.</span><br />
+               <hr class="bg-danger border-3 border-top border-info">
+               <span class="textwhitecolor blockquote">Total paid to referrers: <span id="refTotal"></span> BNB</span><br />
+               <hr class="bg-danger border-3 border-top border-info">
+               <span class="textwhitecolor blockquote">Referral commission: <span id="refPercent">10</span>%</span><br />
+               <hr class="bg-danger border-3 border-top border-info">
+               <span class="textwhitecolor blockquote">Your referral earnings: <span id="refMy"></span> BNB</span><br />
+               <hr class="bg-danger border-3 border-top border-info">
+               <span class="textwhitecolor blockquote"Share your referral link and get commission for referred token purchases instantly to your wallet.</span>
+               <span><input class="form-control" type="text" id="referLink" size="30%" readonly="true"></span>
+               <hr class="bg-danger border-3 border-top border-info">
+               <div align="center">
+                <button class="btn hero-btn-box btn-lg" id="copyreflink" >Copy link</button>
+              </div>
+              <span class="textwhitecolor" id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</span>
+            </div>
+          </p>
+        </div>
+
+        
+        </div>
+      </div>
+      <div class="features-bg-logo">
+        <img src="img/f-logo.png" alt="" />
+      </div>
+    </div>
+  </section>
   
 
+<!-- footer-- -->
+<footer class="footer">
+  <div class="footer__center">
+    <div class="footer__top">
 
-  
+      </ul>
+      <ul class="footer__list-social">
 
-
-
-  <div style="text-align: center">
-    <h1>Buy tokens</h1>
-    <p>1 BNB = <span class="rate"></span> <span class="tokenSymbol">PLYC</span></p>
-    <p><input type="number" id="buyAmount" value="0" min="0"> BNB</p>
-    <p>You get: <span id="get">0</span> <span class="tokenSymbol">PLYC</span></p>
-    <p><button id="buyBtn" style="text-align: center">Buy</button></p>
-    <p><button id="addToken" style="text-align: center">Add to Metamask</button> <button id="copyToken" style="text-align: center">Copy address</button></p>
-
+        <li class="footer__item-social">
+          <a class="footer__link-social" href="https://t.me/+ruuQ3WMrC6xhNGY0">
+            <img src="./img/telegram.svg" alt="" />
+          </a>
+        </li>
+        <li class="footer__item-social">
+          <a
+          class="footer__link-social"
+          href="https://twitter.com/PolycoinToken"
+          >
+          <img src="./img/twitter.svg" alt="" />
+        </a>
+      </li>
+    </ul>
   </div>
-  <hr>
-
-  <div style="text-align: center">
-    <h1>Token sale information</h1>
-    <p>Start: <span id="start"></span></p>
-    <p>End: <span id="end"></span></p>
-    <p>Duration: <span id="duration"></span></p>
-    <p>Tokens claim: <span id="claimtime"></span>
+  <div class="footer__bottom">
+    <a href="" 
+    ><img class="footer__logo" src="#" alt=""
+    /></a>
+    <p class="footer__text">
+      The content shared on this website is for information purpose only
+      and, thus, should not be considered as financial advice. Investing
+      is risky and you should never invest more than you can afford to
+      lose. Cryptocurrencies are risky. Never invest more than you can
+      afford to lose. You alone assume the sole responsibility of
+      evaluating the merits and risks associated with the use of any
+      information or other Content on the Site before making any decisions
+      based on such information or other Content
     </p>
-
   </div>
-  <hr>
+</div>
+</footer>
+<script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
+<script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
+<script src='https://dappbuilder.org/bsc/tokensaleclaimtimeref/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+crossorigin="anonymous" defer="true"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+crossorigin="anonymous" defer="true"></script>
+<script src="./js/jquery-3.6.0.min.js"></script>
+<script src="./js/owl.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" integrity="sha512-HaoDYc3PGduguBWOSToNc0AWGHBi2Y432Ssp3wNIdlOzrunCtB2qq6FrhtPbo+PlbvRbyi86dr5VQx61eg/daQ=="
+crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init();</script>
+<script src="./js/script.js"></script>
 
-  <div style="text-align: center">
-    <h1>My tokens</h1>
-    <p>Unclaimed: <span id="myUnclaimed"></span></p>
-    <div id="claimstatus">
-      <span id="claimok" style="display:none" class="claimstatus green">Tokens are unlocked and can be claimed</span>
-      <span id="claimnotok" style="display:none" class="claimstatus err">Tokens are locked until the completion of the presale.</span>
-    </div>
-    <p><button id="claim">Claim my tokens</button></p>
-  </div>
-  <hr>
 
-  <div style="text-align: center">
-    <h1>Sale contract</h1>
-    <p>You can also buy tokens by sending BNB directly from your wallet to this contract<br>
-    <p><a href="https://bscscan.com/address/0x74e3F296D587f48539eA71759Cc44F2AF61DB651" target="_blank" id="saleAddress">0x74e3F296D587f48539eA71759Cc44F2AF61DB651</a> <button id="copySale" style="text-align: center">Copy address</button></p>
-    <div style="text-align: center" id="saleqr"></div>
-  </div>
-  <hr>
 
-  <div id="refarea" style="text-align: center">
-    <h1>Referral program</h1>
-    <p>Referral commission: <span id="refPercent">10</span>%</p>
-    <p>Your referral earnings: <span id="refMy"></span> BNB</p>
-
-    <p>Share your referral link or QR code and get commission for referred token purchases instantly to your wallet.</p>
-    <p><input type="text" id="referLink" size="70" readonly="true"> <button id="copyreflink">Copy link</button></p>
-    <div id="refqrcode">
-      <div style="text-align: center" id="refqr"></div>
-    </div>
-    <p id="refErr" class="err" style="display: none">Please connect your wallet on Binance Smart Chain to generate your referral link!</p>
-  </div>
-
-  <script src='https://dappbuilder.org/js/jquery-3.6.0.min.js' type="text/javascript" charset="utf-8"></script>
-  <script src='https://dappbuilder.org/js/ethers-5.0.umd.min.js' type="text/javascript" charset="utf-8"></script>
-  <script src='https://dappbuilder.org/bsc/tokensaleclaimtimeref/js/tokensale.ui.js' type="text/javascript" charset="utf-8"></script>
-
-</body>
-
-</html>
-<!-- partial -->
-  
 </body>
 </html>

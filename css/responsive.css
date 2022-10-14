@@ -1,0 +1,314 @@
+
+@media screen and (max-width: 5120px){
+  .header{
+    padding-bottom: 68rem;
+  }
+}
+@media screen and (max-width: 3500px){
+.header {
+    padding-bottom: 36rem;
+}
+}
+@media screen and (max-width: 3000px){
+  .header{
+    padding-bottom: 30rem;
+  }
+}
+@media screen and (max-width: 2700px){
+  .header {
+    padding-bottom: 16rem;
+}
+}
+@media screen and (max-width: 1199px) {
+  .about-content-paragraph {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 992px) {
+  .hero-image-wrapper img {
+    width: 100%;
+  }
+  /* hero-area */
+  .hero-heading-content {
+    width: 85%;
+    font-size: 3.6rem;
+  }
+  .hero-btn-box {
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .hero_area {
+    height: auto;
+    padding-top: 80px;
+    /*background: url(../img/hero-bg-laptop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    padding-bottom: 28rem;*/
+  }
+  .header {
+    background: url(../img/hero-bg-laptop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: auto;
+  }
+  .line-image-wrapper {
+    display: none;
+  }
+  /* about-area */
+  .about-image-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  /* protocol-area */
+  .protocol-paragraph-content {
+    width: 100%;
+  }
+  /* faq-area */
+  .faq-bg-img img {
+    position: absolute;
+    bottom: 10%;
+    right: 5%;
+    width: 35%;
+    z-index: 10;
+  }
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 4rem;
+  }
+  .features-area {
+    background: url(../img/f-bg.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 6rem 0 28rem 0;
+    position: relative;
+  }
+  .ecosystem-con {
+    background-color: #141c27;
+    padding-top: 0rem;
+  }
+  .media-area {
+    background: url(../img/media-bg.png) no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 22rem 0 6rem 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  /* hero-area */
+  .header {
+    background: url(../img/hero-bg-tab.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    height: 125vh;
+  }
+  .hero_area {
+    height: auto;
+    padding-top: 80px;
+  }
+  .hero-btn-box {
+    margin-bottom: 2rem;
+  }
+  .hero-heading-content {
+    width: 100%;
+    text-align: center;
+  }
+  .hero-content-sub-heading {
+    text-align: center;
+  }
+  .hero-btn-wrapper {
+    text-align: center;
+  }
+  .hero-content {
+    padding-bottom: 6rem;
+  }
+  .nav-and-hero {
+    background-position: bottom center;
+  }
+  .custom_grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  /* about-area */
+  .about-area-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .about-image-wrapper {
+    padding-bottom: 4rem;
+  }
+  .about-image-wrapper img {
+    width: 100%;
+  }
+  .about-content-heading {
+    padding-bottom: 3rem;
+  }
+  .about-content-heading,
+  .about-content-paragraph {
+    text-align: center;
+  }
+  /* ------protocolarea------ */
+  .protocol-grid {
+    grid-template-columns: repeat(1, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .protocol-image-wrapper img {
+    width: 100%;
+  }
+  .protocol-heading-content,
+  .protocol-paragraph-content {
+    text-align: center;
+  }
+  /* .protocol-paragraph-content {
+    text-align: center;
+  } */
+
+  /* features-area */
+  .features-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .features-area {
+    background: url(../img/f-bg.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 15rem 0 28rem 0;
+    position: relative;
+  }
+  .ecosystem-con {
+    padding-top: 0rem;
+  }
+  /* ------media-area------ */
+  .media-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .media-item {
+    text-align: center;
+  }
+  /* faq-area */
+  .faq-wrapper {
+    width: 85%;
+    margin: auto;
+    z-index: 500;
+    position: relative;
+  }
+  .ecosystem__list {
+    grid-template-columns: 1fr;
+    row-gap: 10rem;
+    padding-bottom: 5rem;
+  }
+  .media-area {
+    background: url(../img/media-bg.png) no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 24rem 0 6rem 0;
+  }
+  .hero-image-wrapper img {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .navigation {
+    padding: 3rem 1rem;
+  }
+  .hero-btn {
+    width: 175px;
+  }
+  /* hero-area */
+  .header {
+    background: url(../img/mmm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    /* height: 140vh; */
+    height: auto;
+    padding-bottom: 6rem;
+  }
+  .line img {
+    width: 120%;
+  }
+  .nav-dashboard-btn-md {
+    display: none;
+  }
+  .nav-dashboard-btn-sm {
+    display: block !important;
+  }
+  .section_padding {
+    padding: 6rem 2rem;
+  }
+  .hero-image-wrapper img {
+    width: 70%;
+  }
+  .line-image-wrapper {
+    display: none;
+  }
+  .hero_area {
+    height: auto;
+
+    background: none;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .hero-btn-wrapper {
+    padding-bottom: 3rem;
+  }
+  .navbar-brand {
+    width: 50%;
+  }
+  /* ------about-area------ */
+  .about-area {
+    padding: 3rem 2rem 6rem 2rem;
+  }
+  /* features-area */
+  .features-area {
+    background: url(../img/f-bg.png) no-repeat;
+    background-size: 100%;
+    background-position: bottom;
+    padding: 6rem 1.5rem 18rem 1.5rem;
+    position: relative;
+  }
+  .features-box-content-paragraph {
+    width: 100%;
+  }
+  .features-box {
+    text-align: center;
+  }
+  .media-area {
+    background: url(../img/media-bg.png) no-repeat;
+    background-size: cover;
+    background-position: bottom right;
+    padding: 25rem 2rem 6rem 2rem;
+  }
+  .media-grid {
+    grid-gap: 10rem;
+  }
+  .media-item-content-wrapper {
+    padding-top: 3rem;
+  }
+  .navbar-brand img {
+    width: 100%;
+  }
+  .footer__text {
+    font-size: 1.6rem;
+    line-height: 3.6rem;
+  }
+  .faq-area {
+    background-color: #151d29;
+    position: relative;
+    overflow: hidden;
+    padding: 12rem 2rem 10rem 2rem;
+    padding-top: 0rem !important;
+  }
+  .line {
+    display: block;
+  }
+  .custom-menu {
+    width: 100vw;
+  }
+}
